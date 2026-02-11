@@ -39,3 +39,7 @@
 
 # debug information files
 *.dwo
+
+# Helping files
+*.txt
+*.base64
