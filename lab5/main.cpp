@@ -53,7 +53,7 @@ int main(int argc, char* argv[]) {
     try {
         if (compress) {
             lzw_compr(input, output, max_bits, reset);
-            std::cout << "Скомрєсіровано: " << input << ", bits: " << max_bits << "\n";
+            std::cout << "Скомпрєсіровано: " << input << ", bits: " << max_bits << "\n";
         } else {
             lzw_decompr(input, output);
             std::cout << "Дєкомпрєсіровано: " << input << "\n";
